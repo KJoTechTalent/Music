@@ -1,0 +1,58 @@
+@import url(fonts/Lato.css);
+@import url(fonts/Roboto.css);
+:root{
+    --fontFamTitle: "Lato", "Arial";
+    --fontFamGeneral:"Roboto", "Serif-Sans";
+
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+header {
+  width: 100vw;
+  height: 20vh;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+#logoContainer {
+  height: 15vh;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoImg {
+  width: 155px;
+  position: relative;
+
+  left: 15px;
+}
+#nameLogoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    position: relative;
+    top: 5px;
+}
+.nameLogo {
+    color: #4200c5;
+    font-family: var(--fontFam);
+    font-weight: 900;
+    font-size: 37px;
+    position: relative;
+    left: -40px;
+}
+.sloganLogo{
+    font-family: var(--fontFamGeneral);
+    color: #8ea5c3;
+    letter-spacing: 5px;
+}
+#fixedContainer {
+  height: 5vh;
+  background-color: rgb(60, 60, 60);
+}
+
